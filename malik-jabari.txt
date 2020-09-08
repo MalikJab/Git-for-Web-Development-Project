@@ -1,0 +1,127 @@
+Codepen Link: https://codepen.io/malikjab/pen/gOrovKg?editors=1100
+
+Questions:
+
+ 1. What is Semantic HTML? 
+-Using meaningful tags that convey what type of information is inside-
+
+    2. What is HTML used for? 
+-marking up the page/setting up the framework to add onto-
+
+    3. What is an attribute and where do we put it? 
+-attributes give the element more information; goes in the starting tag-
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+-h1 is a heading tag with the highest level of importance, you should only use it once -
+
+    5. Name two tags that have required attributes
+-<a> and <img>, href and src-
+
+    6. What do we put in the head of our HTML document? 
+-Anything you'd want to show on the browser tab-
+
+    7. What is an id? 
+-an id specifies an element to make it easier to style-
+
+    8. What elements can I add an id to? 
+-anything, but usually tags dealing with one thing, <span>, <img>, ect.-
+
+    9. How many times can I use the same id on a page? 
+-once.-
+
+    10. What is a class? 
+-Similar to an Id, but used to specify multiple elements at the same time-
+
+    11. What elements can I add a class to? 
+-Anything, but usually takes dealing with multiple things, <p>, <div>, ect.-
+
+    12. How many times can I use the same class on a page? 
+-As much as you want.-
+
+    13. How do I get my link to open in a new tab?
+-using the 'target' attribute, 
+<a href="https://www.google.com/" target="_blank"> open google in a new tab </a>-
+
+    14. What is the alt attribute in the image tag used for? 
+-displays text if the image cannot be displayed-
+
+    15. How do I reference an id?
+-using #, #example {
+something
+}-
+
+    16. What is the difference between a section and a div
+-Section is semantic, div is not-
+
+    17. What is CSS used for? 
+-to style the html-
+
+    18. How to we select an element? Example - every h2 on the page
+-use a selector, 
+h1 {
+color:example;
+}-
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+-Class to style multiple elements, Id for singular.
+You could use class to change all images under that class to have a certain margin, and use Id to style a specific span of letter-
+
+    20. How do we select classes in CSS?
+-using ".", .example{
+somthing
+}-
+    21. How do we select a p element with a single class of “human””?
+-.human p {
+
+}-
+    22. What is a parent child selector? When would this be useful?
+- Say you want to change every <p> that is a child of a section, you'd go 
+section > p {
+something
+}-
+    23. How do you select all links within a div with the class of sidebar?
+-.sidebar > a{
+something
+}-
+
+    24. What is a pseudo selector?
+- selector for a specific action like a:hover, a:link-
+
+    25. What do we use the change the spacing between lines?
+-<br>-
+    26. What do we use to change the spacing between letters?
+-letter-spacing:example px;-
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+-text-transform:capitalize/lowercase/uppercase;-
+
+    28. How do I add a 1px border around my div that is dotted and black?
+-border: 1px dotted black;-
+
+    29. How do I select everything on the page? 
+-crtl + a-
+
+    30. How do I write a comment in CSS?
+-/* something goes here */-
+
+    31. How do I find out what file I am in, when I am using the command line? 
+-pwd-
+
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+-ls-
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+-rm filename, it will not go to the recycle bin, it's deleted-
+
+    34. Why should I use version control? 
+-You don't have to save every repository version on your computer, and you have a history of the changes-
+
+    35. How often should I commit to github?
+-whenever you've done anything you don't want to lose; so, frequently-
+
+    36. What is the command we would use to push our repo up to github? 
+-git push-
+
+    37. Walk me through Lambda's git flow. 
+-fork, clone, create branch, work, commit branch, push to github, create pull request-
